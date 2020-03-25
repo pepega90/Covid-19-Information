@@ -33,7 +33,7 @@ class SelectedCovid extends Component {
   render() {
     let selected = null;
     if (this.state.selectedCountry) {
-      selected = this.state.selectedCountry.map((value, index) => {
+      selected = this.state.selectedCountry.map(value => {
         return <option key={value.id}>{value.name}</option>;
       });
     }
