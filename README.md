@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Covid-19 Statistics With React.js
+# Covid-19 Information With React.js
 
-This website helps to see statistics about the spread of Corona virus, if you wanna to build similiar website like this. you can use this API https://covid19.mathdro.id/api 
+This website helps to see Information or Report about the spread of Corona virus, if you wanna to build similiar website like this. you can use this API https://covid19.mathdro.id/api 
 
 ## Available Scripts
 
