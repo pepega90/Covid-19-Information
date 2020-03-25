@@ -1,0 +1,32 @@
+.CD {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 3rem 0;
+}
+
+.Card {
+  width: 350px;
+  height: 250px;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: inset 20px 20px 60px #d9d9d9, inset -20px -20px 60px #ffffff;
+}
+
+.Card h2 {
+  font-size: 35px;
+  margin: 15px 0;
+  color: #333333;
+}
+
+.Card h1 {
+  color: #333333;
+  font-size: 45px;
+}
+
+@media (max-width: 768px) {
+  .Card {
+    margin: 2rem 0;
+    width: 300px;
+  }
+}

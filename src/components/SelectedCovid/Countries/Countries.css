@@ -1,0 +1,23 @@
+.center {
+  text-align: center;
+}
+
+.header {
+  border-bottom: 2px solid #333333;
+  margin: 1.2rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .level {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column {
+    margin: 1.1rem 0;
+  }
+}
