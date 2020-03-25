@@ -26,7 +26,7 @@ class Covid extends Component {
       global = (
         <div className={styling.Covid}>
           <h1 style={{marginBottom: '3rem'}} className="title head">
-            Covid-19 Statistics
+            Covid-19 Information
           </h1>
           <h2 className="subtitle">
             Last Update: {this.state.globalReport.lastUpdate}

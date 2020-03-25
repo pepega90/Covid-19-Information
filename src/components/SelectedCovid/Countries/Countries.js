@@ -10,7 +10,10 @@ class Countries extends Component {
   };
 
   componentDidUpdate(prevProps) {
-    if (prevProps.negara !== this.props.negara) {
+    if (
+      prevProps.negara !== this.props.negara &&
+      this.props.negara !== '-- Choose your country --'
+    ) {
       axios(
         `https://covid19.mathdro.id/api/countries/${this.props.negara}`
       ).then(res => {
@@ -23,11 +26,7 @@ class Countries extends Component {
   }
 
   render() {
-    let pepega = (
-      <p style={{textAlign: 'center', marginTop: '1.3rem'}}>
-        Select Your Countries
-      </p>
-    );
+    let pepega = null;
 
     if (this.props.negara) {
       pepega = <Spinner />;
@@ -82,7 +81,17 @@ class Countries extends Component {
         </div>
       );
     }
-    return <>{pepega}</>;
+    return (
+      <>
+        {this.props.negara === '-- Choose your country --' ? (
+          <p style={{textAlign: 'center', marginTop: '1.3rem'}}>
+            Select Your Countries
+          </p>
+        ) : (
+          pepega
+        )}
+      </>
+    );
   }
 }
 
