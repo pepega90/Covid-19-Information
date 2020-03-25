@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Covid-19 Statistics With React.js
+
+This website helps to see statistics about the spread of Corona virus, if you wanna to build similiar website like this. you can use this API https://covid19.mathdro.id/api 
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -66,3 +70,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Acknowledgments
+
+* Thanks to @mathdroid for API
+* etc
