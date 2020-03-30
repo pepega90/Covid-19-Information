@@ -26,14 +26,14 @@ class Countries extends Component {
   }
 
   render() {
-    let pepega = null;
+    let loadedCountries = null;
 
     if (this.props.negara) {
-      pepega = <Spinner />;
+      loadedCountries = <Spinner />;
     }
 
     if (this.state.singleCountries) {
-      pepega = (
+      loadedCountries = (
         <div className="container center">
           <div className="card">
             <header className="header">
@@ -44,9 +44,6 @@ class Countries extends Component {
             </header>
             <div className="card-content">
               <div className="level is-mobile">
-                {/* <div className="level-item has-text-centered">
-                  
-                </div> */}
                 <div className="column">
                   <p className="heading is-1">Confirmed</p>
                   <p style={{color: '#0080ff'}} className="title is-1">
@@ -88,7 +85,7 @@ class Countries extends Component {
             Select Your Countries
           </p>
         ) : (
-          pepega
+          loadedCountries
         )}
       </>
     );

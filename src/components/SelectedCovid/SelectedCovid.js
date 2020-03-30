@@ -52,14 +52,6 @@ class SelectedCovid extends Component {
           </div>
           <Countries negara={this.state.country} />
         </div>
-        <footer className="footer">
-          <div className="content has-text-centered">
-            <p>
-              Made with <span style={{color: '#e25555'}}>&#9829;</span> by Aji
-              Mustofa
-            </p>
-          </div>
-        </footer>
       </>
     );
   }

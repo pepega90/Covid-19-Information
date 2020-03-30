@@ -1,0 +1,22 @@
+.card {
+  padding: 1rem;
+  transition: all 250ms;
+  border: 2px solid #dddddd;
+}
+
+.title {
+  margin: 1.5rem 0;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.card:hover,
+.card:active {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+@media (min-width: 500px) {
+  .mobile {
+    flex-direction: column;
+  }
+}
