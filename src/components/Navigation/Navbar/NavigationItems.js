@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 
-// import classes from './NavigationItems.module.css';
+import './NavigationItems.css';
 
 const navigationItems = props => {
   let active = ['navbar-menu'];
@@ -16,7 +16,7 @@ const navigationItems = props => {
     >
       <div className="navbar-brand">
         <h1
-          className="title is-3"
+          className="title"
           style={{color: '#fff', padding: '5px 0', margin: '0 2rem'}}
         >
           Covid-19 Report
